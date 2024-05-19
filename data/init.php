@@ -16,16 +16,16 @@ $stmt = $pdoSet->query($sqlTM);
 
 $sqlTM = "
 CREATE TABLE IF NOT EXISTS `Individuals` (
-	`id` int NOT NULL,
-	`first_name` varchar(30) NOT NULL,
-	`last_name` varchar(30) NOT NULL,
-	`middle_name` varchar(30) DEFAULT NULL,
-	`passport` varchar(30) NOT NULL,
-	`INN` varchar(12) NOT NULL,
-	`SNILS` varchar(11) NOT NULL,
-	`license` varchar(30) DEFAULT NULL,
-	`additional_docs` varchar(30) DEFAULT NULL,
-	`notes` varchar(255) DEFAULT NULL,
+	`id` INT NOT NULL,
+	`first_name` VARCHAR(30) NOT NULL,
+	`last_name` VARCHAR(30) NOT NULL,
+	`middle_name` VARCHAR(30) DEFAULT NULL,
+	`passport` VARCHAR(30) NOT NULL,
+	`INN` VARCHAR(12) NOT NULL,
+	`SNILS` VARCHAR(11) NOT NULL,
+	`license` VARCHAR(30) DEFAULT NULL,
+	`additional_docs` VARCHAR(30) DEFAULT NULL,
+	`notes` VARCHAR(255) DEFAULT NULL,
 	PRIMARY KEY (`id`)
   );
 ";
