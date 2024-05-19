@@ -3,10 +3,10 @@ SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
-DROP DATABASE IF EXISTS `test`;
-CREATE DATABASE test;
+DROP DATABASE IF EXISTS `bank`;
+CREATE DATABASE bank;
 
-USE test;
+USE bank;
 
 CREATE TABLE `Individuals` (
   `id` int NOT NULL,

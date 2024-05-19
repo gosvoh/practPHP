@@ -30,7 +30,7 @@
 						<?php
 						// блок инициализации
 						try {
-							$pdoSet = new PDO('mysql:dbname=test;host=localhost', 'root', '');
+							$pdoSet = new PDO('mysql:dbname=bank;host=localhost', 'root', '');
 							$pdoSet->query('SET NAMES utf8;');
 						} catch (PDOException $e) {
 							print "Error!: " . $e->getMessage() . "<br/>";

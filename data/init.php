@@ -9,9 +9,9 @@ try {
 }
 
 // код для "неубиваемой" базы данных
-$sqlTM = "CREATE DATABASE IF NOT EXISTS test;";
+$sqlTM = "CREATE DATABASE IF NOT EXISTS bank;";
 $stmt = $pdoSet->query($sqlTM);
-$sqlTM = "USE test;";
+$sqlTM = "USE bank;";
 $stmt = $pdoSet->query($sqlTM);
 
 $sqlTM = "

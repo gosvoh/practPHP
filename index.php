@@ -50,7 +50,7 @@
 
 				</tr>
 			</table>
-			<p style="font-size:12px;"><i>(в базу <b>test</b>, таблицу <b>Individuals</b> в MySQL)</i></p>
+			<p style="font-size:12px;"><i>(в базу <b>bank</b>, таблицу <b>Individuals</b> в MySQL)</i></p>
 			<hr />
 		</form>
 		<!-- КОНЕЦ форма добавления ВСПЛЫВАЮЩИЕ СТРОКИ -->
